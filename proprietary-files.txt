@@ -47,8 +47,6 @@ lib/libril.so
 lib/librmnetctl.so
 lib/libsec-ril.so
 lib/libsec-ril-dsds.so
-
-
 lib/libsecnativefeature.so
 lib/libsecril-client.so
 vendor/lib/libril-qcril-hook-oem.so
