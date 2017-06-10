@@ -17,7 +17,11 @@
 # inherit from common trlte
 -include device/samsung/trlte-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := trltechn
+TARGET_OTA_ASSERT_DEVICE := trltechn,trltechnduos
+
+# Audio
+AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
+AUDIO_FEATURE_SAMSUNG_DUAL_SIM := true
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := apq8084_sec_trlte_chnzn_defconfig
