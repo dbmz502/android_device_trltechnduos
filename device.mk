@@ -27,7 +27,8 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/trltechnduos/overlay
 
 # RIL
 PRODUCT_PACKAGES += \
-    init.rilduos.rc
+    init.rilduos.rc \
+    init.qcom.ril.sh
 
 #PRODUCT_COPY_FILES += \
 #    $(LOCAL_PATH)/rootdir/etc/init.qcom.ril.sh:root/init.qcom.ril.sh \
