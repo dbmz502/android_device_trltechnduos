@@ -36,6 +36,7 @@ TARGET_GLOBAL_CPPFLAGS += -DANDROID_MULTI_SIM
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_trltechnduos
+TARGET_LIBINIT_APQ8084_DEFINES_FILE := device/samsung/trltechnduos/init/init_trlte.cpp
 TARGET_UNIFIED_DEVICE := true
 
 # inherit from the proprietary version
