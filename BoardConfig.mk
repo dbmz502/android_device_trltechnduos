@@ -17,7 +17,7 @@
 # inherit from common trlte
 -include device/samsung/trlte-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := trltechn,trltechnduos
+TARGET_OTA_ASSERT_DEVICE := trltechn,trltechnduos,trlteduoszh
 
 # Audio
 AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
